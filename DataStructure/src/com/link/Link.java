@@ -1,17 +1,18 @@
 package com.link;
 
 public class Link {
-	public int iData;
-	public double dData;
+	public long dData;
 	public Link next;
 	
-	public Link(int id,double dd)
+	public Link(long dd)
 	{
-		iData=id;
 		dData=dd;
 	}
 	public void displayLink()
 	{
-		System.out.print("{"+iData+","+dData+"}");
+		System.out.print(dData+"  ");
 	}
+	
+	
+	
 }
